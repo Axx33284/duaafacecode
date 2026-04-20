@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al Nahda International Schools</title>
+    <meta
+      name="description"
+      content="A premium, modern, and trustworthy landing page for Al Nahda International Schools."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Al Nahda International Schools home">
+          <img src="Images/logo.jpg" alt="Al Nahda International Schools logo" class="logo" />
+          <span class="brand-text">
+            <strong>Al Nahda</strong>
+            <small>International Schools</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="#programs" data-i18n="nav_programs">Academic Programs</a></li>
+            <li><a href="#streams" data-i18n="nav_streams">School Streams</a></li>
+            <li><a href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
+            <li><a href="#campus-life" data-i18n="nav_campus">Campus Life</a></li>
+            <li><a href="#trips" data-i18n="nav_trips">Trips</a></li>
+            <li><a href="#admissions" data-i18n="nav_admissions">Admissions</a></li>
+          </ul>
+        </nav>
+        <div class="header-controls">
+          <button type="button" id="lang-toggle" class="chip-btn" aria-label="Switch language">
+            <span class="btn-icon" aria-hidden="true">🌐</span>
+            <span id="lang-toggle-label">العربية</span>
+          </button>
+          <button type="button" id="theme-toggle" class="chip-btn" aria-label="Switch theme">
+            <span id="theme-icon" class="btn-icon" aria-hidden="true">🌙</span>
+            <span id="theme-toggle-label">Dark</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow" data-i18n="hero_eyebrow">A Future-Ready Learning Community</p>
+          <h1 data-i18n="hero_title">Professional Education Design for Tomorrow's Global Citizens</h1>
+          <p data-i18n="hero_desc">
+            Al Nahda International Schools delivers world-class academics, purposeful
+            mentorship, and a modern campus environment where diverse students are
+            empowered to lead with confidence.
+          </p>
+          <a href="#admissions" class="btn-primary" data-i18n="hero_cta">Begin Admissions</a>
+        </div>
+      </section>
+
+      <section id="news-events" class="section news-events reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="news_eyebrow">Latest Updates</p>
+            <h2 data-i18n="news_title">Events & News</h2>
+          </div>
+          <div class="news-grid">
+            <article class="news-card">
+              <div class="news-image">
+                <img src="Images/images (2).jpg" alt="Annual Sports Day event" />
+              </div>
+              <div class="news-content">
+                <p class="news-date">April 18, 2026</p>
+                <h3 data-i18n="news_card1_title">Annual Sports Day 2026</h3>
+                <p data-i18n="news_card1_desc">
+                  Our students showcased exceptional athletic talent and sportsmanship. A memorable day of competition and school spirit.
+                </p>
+              </div>
+              <a href="news-detail.html?id=1" class="read-more" data-i18n="news_read">Read More →</a>
+            </article>
+
+            <article class="news-card">
+              <div class="news-image">
+                <img src="Images/uk-universities-1536x1024.jpg" alt="Science Exhibition" />
+              </div>
+              <div class="news-content">
+                <p class="news-date">April 10, 2026</p>
+                <h3 data-i18n="news_card2_title">Science & Innovation Fair</h3>
+                <p data-i18n="news_card2_desc">
+                  Students presented groundbreaking STEM projects to parents and educators. Innovation at its finest!
+                </p>
+              </div>
+              <a href="news-detail.html?id=2" class="read-more" data-i18n="news_read">Read More →</a>
+            </article>
+
+            <article class="news-card">
+              <div class="news-image">
+                <img src="Images/images (3).jpg" alt="University Visits" />
+              </div>
+              <div class="news-content">
+                <p class="news-date">April 1, 2026</p>
+                <h3 data-i18n="news_card3_title">University Campus Visit</h3>
+                <p data-i18n="news_card3_desc">
+                  Our senior students visited prestigious international universities to explore future opportunities and pathways.
+                </p>
+              </div>
+              <a href="news-detail.html?id=3" class="read-more" data-i18n="news_read">Read More →</a>
+            </article>
+          </div>
+          <div class="news-actions">
+            <a href="news.html" class="btn-primary" data-i18n="news_all">View All Events & News</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="programs" class="section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="programs_eyebrow">Academic Programs</p>
+            <h2 data-i18n="programs_title">Structured Pathways Built for Excellence</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <img src="Images/images (2).jpg" alt="Students in an active classroom session" />
+              <h3 data-i18n="programs_card1_title">Primary Years</h3>
+              <p data-i18n="programs_card1_desc">
+                Foundational literacy, numeracy, and inquiry-based exploration in a
+                supportive environment designed to build confidence.
+              </p>
+            </article>
+            <article class="card">
+              <img src="Images/images.jpg" alt="Students working together in a modern learning space" />
+              <h3 data-i18n="programs_card2_title">Middle School</h3>
+              <p data-i18n="programs_card2_desc">
+                A balanced curriculum of humanities, STEM, and language development that
+                strengthens critical and independent thinking.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=80"
+                alt="Senior students preparing for university admissions"
+              />
+              <h3 data-i18n="programs_card3_title">Secondary Pathways</h3>
+              <p data-i18n="programs_card3_desc">
+                University-aligned coursework, leadership opportunities, and personalized
+                guidance to prepare students for international success.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="streams" class="section streams reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="streams_eyebrow">School Streams</p>
+            <h2 data-i18n="streams_title">Arabic Program and International Program</h2>
+          </div>
+          <div class="streams-grid">
+            <article class="stream-card">
+              <h3 data-i18n="streams_ar_title">Arabic Program</h3>
+              <p data-i18n="streams_ar_desc">
+                A strong Arabic curriculum rooted in language mastery, national identity,
+                and cultural values, delivered through modern teaching practices.
+              </p>
+            </article>
+            <article class="stream-card">
+              <h3 data-i18n="streams_int_title">International Program</h3>
+              <p data-i18n="streams_int_desc">
+                A globally focused pathway emphasizing English fluency, advanced academics,
+                and university readiness in an international context.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="pricing_eyebrow">Pricing</p>
+            <h2 data-i18n="pricing_title">Transparent Tuition with Essential Student Services</h2>
+          </div>
+          <div class="pricing-card">
+            <p class="price-main"><span data-i18n="pricing_from">Starting from</span> <strong>$3000</strong></p>
+            <p data-i18n="pricing_desc">
+              The tuition package supports your child with core services, student wellbeing,
+              and enriching school experiences.
+            </p>
+            <ul class="ticks">
+              <li data-i18n="pricing_li1">Books and learning materials included</li>
+              <li data-i18n="pricing_li2">School uniforms support package</li>
+              <li data-i18n="pricing_li3">Nurse care and student health support when needed</li>
+              <li data-i18n="pricing_li4">Potential events, activities, and community programs</li>
+            </ul>
+            <p class="discount-note" data-i18n="pricing_discount">
+              Siblings discount: 10% off for each additional sibling enrolled.
+            </p>
+
+            <div class="pricing-tables">
+              <div class="pricing-table-block">
+                <h3 data-i18n="pricing_table1_title">One student</h3>
+                <div class="price-table-wrap">
+                  <table class="price-table">
+                    <thead>
+                      <tr>
+                        <th data-i18n="pricing_th_description">Description</th>
+                        <th data-i18n="pricing_th_amount">Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-i18n="pricing_t1_row1_label">Annual tuition (one student)</td>
+                        <td>$3,000</td>
+                      </tr>
+                      <tr class="total-row">
+                        <th scope="row" data-i18n="pricing_t1_row2_label">Family total (per year)</th>
+                        <td>$3,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="pricing-table-block">
+                <h3 data-i18n="pricing_table2_title">Two or more students (10% sibling discount)</h3>
+                <div class="price-table-wrap">
+                  <table class="price-table">
+                    <thead>
+                      <tr>
+                        <th data-i18n="pricing_th_enrolled">Students enrolled</th>
+                        <th data-i18n="pricing_th_detail">How tuition is calculated</th>
+                        <th data-i18n="pricing_th_family_total">Family total (per year)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-i18n="pricing_t2_row1_enrolled">2 children</td>
+                        <td class="muted-cell" data-i18n="pricing_t2_row1_detail">
+                          First child full ($3,000) + second child at 10% off
+                        </td>
+                        <td>$5,700</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="pricing_t2_row2_enrolled">3 children</td>
+                        <td class="muted-cell" data-i18n="pricing_t2_row2_detail">
+                          First child full + two siblings each at 10% off
+                        </td>
+                        <td>$8,400</td>
+                      </tr>
+                      <tr>
+                        <td data-i18n="pricing_t2_row3_enrolled">4 or more</td>
+                        <td class="muted-cell" data-i18n="pricing_t2_row3_detail">
+                          First child full + every additional sibling at 10% off each
+                        </td>
+                        <td data-i18n="pricing_t2_row3_total">See admissions</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="pricing-table-foot" data-i18n="pricing_t2_foot">
+                  The 10% sibling discount applies to each additional brother or sister after the
+                  first enrolled child, based on the standard annual tuition ($3,000). Final fees
+                  are confirmed during enrollment.
+                </p>
+              </div>
+            </div>
+            <div class="actions pricing-actions">
+              <a href="apply.html" class="btn-primary" data-i18n="admissions_cta1">Apply Now</a>
+              <a href="tour.html" class="btn-outline" data-i18n="admissions_cta2">Schedule a Tour</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="campus-life" class="section section-alt reveal">
+        <div class="container split">
+          <div class="split-content">
+            <p class="eyebrow" data-i18n="campus_eyebrow">Campus Life</p>
+            <h2 data-i18n="campus_title">Vibrant Experiences Beyond the Classroom</h2>
+            <p data-i18n="campus_desc">
+              Our campus culture encourages curiosity, creativity, and character. Students
+              thrive through clubs, sports, performing arts, and service opportunities in
+              a safe and inclusive environment.
+            </p>
+            <ul class="ticks">
+              <li data-i18n="campus_li1">State-of-the-art classrooms and labs</li>
+              <li data-i18n="campus_li2">Holistic extracurricular and wellbeing programs</li>
+              <li data-i18n="campus_li3">Strong academic support and mentoring</li>
+            </ul>
+          </div>
+          <div class="split-media">
+            <img
+              src="Images/Al_Nahda_National_School_for_Girls_Campus_89f408a84d_c35fd727ae_e9f4139fbb.jpg"
+              alt="Al Nahda campus and student community life"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="trips" class="section trips reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="trips_eyebrow">Educational Trips</p>
+            <h2 data-i18n="trips_title">Learning Through Real-World Exploration</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <img
+                src="Images/uk-universities-1536x1024.jpg"
+                alt="University campus buildings for student visits"
+              />
+              <h3 data-i18n="trips_card1_title">University Visits</h3>
+              <p data-i18n="trips_card1_desc">
+                Guided visits to universities to inspire future goals and early career planning.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="Images/images (3).jpg"
+                alt="Outdoor park and nature setting for school trips"
+              />
+              <h3 data-i18n="trips_card2_title">Parks and Nature Days</h3>
+              <p data-i18n="trips_card2_desc">
+                Outdoor learning trips that combine recreation, teamwork, and environmental awareness.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="Images/images (4).jpg"
+                alt="Camping and outdoor adventure learning experience"
+              />
+              <h3 data-i18n="trips_card3_title">Camping and Adventure Programs</h3>
+              <p data-i18n="trips_card3_desc">
+                Safe, well-organized camping and adventure activities that build resilience and leadership.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="admissions" class="section admissions reveal">
+        <div class="container admissions-inner">
+          <p class="eyebrow" data-i18n="admissions_eyebrow">Admissions</p>
+          <h2 data-i18n="admissions_title">Welcome to Al Nahda International Schools</h2>
+          <p data-i18n="admissions_desc">
+            We invite families to explore a premium educational journey defined by academic
+            rigor, modern values, and personalized student growth. Connect with us to begin
+            your child's next chapter.
+          </p>
+          <div class="actions">
+            <a href="apply.html" class="btn-primary" data-i18n="admissions_cta1">Apply Now</a>
+            <a href="tour.html" class="btn-outline" data-i18n="admissions_cta2">Schedule a Tour</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p data-i18n="footer_name">Al Nahda International Schools</p>
+        <p data-i18n="footer_copy">Copyright 2026. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

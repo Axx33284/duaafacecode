@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events & News | Al Nahda International Schools</title>
+    <meta
+      name="description"
+      content="Stay updated with the latest events and news from Al Nahda International Schools."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Al Nahda International Schools home">
+          <img src="Images/logo.jpg" alt="Al Nahda International Schools logo" class="logo" />
+          <span class="brand-text">
+            <strong>Al Nahda</strong>
+            <small>International Schools</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="news.html" data-i18n="nav_news">News & Events</a></li>
+            <li><a href="apply.html" data-i18n="apply_shortlink">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header-controls">
+          <button type="button" id="lang-toggle" class="chip-btn" aria-label="Switch language">
+            <span class="btn-icon" aria-hidden="true">🌐</span>
+            <span id="lang-toggle-label">العربية</span>
+          </button>
+          <button type="button" id="theme-toggle" class="chip-btn" aria-label="Switch theme">
+            <span id="theme-icon" class="btn-icon" aria-hidden="true">🌙</span>
+            <span id="theme-toggle-label">Dark</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow" data-i18n="news_eyebrow">Latest Updates</p>
+          <h1 data-i18n="news_page_title">Events & News</h1>
+          <p class="page-lead" data-i18n="news_page_desc">
+            Stay connected with the latest happenings at Al Nahda International Schools. Explore our exciting events, achievements, and campus activities.
+          </p>
+        </div>
+      </section>
+
+      <section class="section news-list-section">
+        <div class="container">
+          <div class="news-list">
+            <!-- Event 1 -->
+            <article class="news-list-item">
+              <div class="news-list-image">
+                <img src="Images/images (2).jpg" alt="Annual Sports Day event" />
+              </div>
+              <div class="news-list-content">
+                <div class="news-list-header">
+                  <p class="news-list-date">April 18, 2026</p>
+                  <h2 data-i18n="news_card1_title">Annual Sports Day 2026</h2>
+                </div>
+                <p data-i18n="news_card1_desc">
+                  Our students showcased exceptional athletic talent and sportsmanship in this year's Annual Sports Day. The event featured various competitions, relays, and team challenges that brought the entire school community together. A memorable day of competition and school spirit!
+                </p>
+                <a href="news-detail.html?id=1" class="btn-primary" data-i18n="news_read_full">Read Full Article</a>
+              </div>
+            </article>
+
+            <!-- Event 2 -->
+            <article class="news-list-item">
+              <div class="news-list-image">
+                <img src="Images/uk-universities-1536x1024.jpg" alt="Science Exhibition" />
+              </div>
+              <div class="news-list-content">
+                <div class="news-list-header">
+                  <p class="news-list-date">April 10, 2026</p>
+                  <h2 data-i18n="news_card2_title">Science & Innovation Fair</h2>
+                </div>
+                <p data-i18n="news_card2_desc">
+                  Students presented groundbreaking STEM projects to parents and educators in our annual Science & Innovation Fair. The fair showcased innovative projects ranging from robotics to environmental science, demonstrating our students' creativity and technical skills. Innovation at its finest!
+                </p>
+                <a href="news-detail.html?id=2" class="btn-primary" data-i18n="news_read_full">Read Full Article</a>
+              </div>
+            </article>
+
+            <!-- Event 3 -->
+            <article class="news-list-item">
+              <div class="news-list-image">
+                <img src="Images/images (3).jpg" alt="University Visits" />
+              </div>
+              <div class="news-list-content">
+                <div class="news-list-header">
+                  <p class="news-list-date">April 1, 2026</p>
+                  <h2 data-i18n="news_card3_title">University Campus Visit</h2>
+                </div>
+                <p data-i18n="news_card3_desc">
+                  Our senior students visited prestigious international universities to explore future opportunities and pathways. This educational trip included campus tours, student panel discussions, and interactions with admissions officers from leading institutions worldwide.
+                </p>
+                <a href="news-detail.html?id=3" class="btn-primary" data-i18n="news_read_full">Read Full Article</a>
+              </div>
+            </article>
+
+            <!-- Event 4 -->
+            <article class="news-list-item">
+              <div class="news-list-image">
+                <img src="Images/images.jpg" alt="Cultural Week Celebration" />
+              </div>
+              <div class="news-list-content">
+                <div class="news-list-header">
+                  <p class="news-list-date">March 25, 2026</p>
+                  <h2>Cultural Week Celebration</h2>
+                </div>
+                <p>
+                  Al Nahda celebrated its annual Cultural Week with vibrant performances, exhibitions, and activities showcasing the diverse backgrounds and talents of our student body. Students presented traditional dances, food, and art from various cultures around the world.
+                </p>
+                <a href="news-detail.html?id=4" class="btn-primary" data-i18n="news_read_full">Read Full Article</a>
+              </div>
+            </article>
+
+            <!-- Event 5 -->
+            <article class="news-list-item">
+              <div class="news-list-image">
+                <img src="Images/images (4).jpg" alt="Community Service Day" />
+              </div>
+              <div class="news-list-content">
+                <div class="news-list-header">
+                  <p class="news-list-date">March 15, 2026</p>
+                  <h2>Community Service Day Initiative</h2>
+                </div>
+                <p>
+                  Our students participated in a comprehensive Community Service Day, engaging in various volunteer activities including environmental cleanup, elderly care facility visits, and local community support programs. This initiative reinforced our commitment to social responsibility and compassion.
+                </p>
+                <a href="news-detail.html?id=5" class="btn-primary" data-i18n="news_read_full">Read Full Article</a>
+              </div>
+            </article>
+
+            <!-- Event 6 -->
+            <article class="news-list-item">
+              <div class="news-list-image">
+                <img src="Images/Al_Nahda_National_School_for_Girls_Campus_89f408a84d_c35fd727ae_e9f4139fbb.jpg" alt="Debate Championship" />
+              </div>
+              <div class="news-list-content">
+                <div class="news-list-header">
+                  <p class="news-list-date">March 5, 2026</p>
+                  <h2>Inter-School Debate Championship</h2>
+                </div>
+                <p>
+                  Al Nahda's debate team claimed victory at the Inter-School Debate Championship, competing against teams from leading schools in the region. Our students demonstrated exceptional critical thinking, eloquence, and argumentation skills throughout the competition.
+                </p>
+                <a href="news-detail.html?id=6" class="btn-primary" data-i18n="news_read_full">Read Full Article</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section admissions">
+        <div class="container admissions-inner">
+          <p class="eyebrow" data-i18n="admissions_eyebrow">Join Us</p>
+          <h2 data-i18n="admissions_title">Become Part of Al Nahda Family</h2>
+          <p data-i18n="admissions_desc">
+            We invite families to explore a premium educational journey defined by academic
+            rigor, modern values, and personalized student growth. Connect with us to begin
+            your child's next chapter.
+          </p>
+          <div class="actions">
+            <a href="apply.html" class="btn-primary" data-i18n="admissions_cta1">Apply Now</a>
+            <a href="tour.html" class="btn-outline" data-i18n="admissions_cta2">Schedule a Tour</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p data-i18n="footer_name">Al Nahda International Schools</p>
+        <p data-i18n="footer_copy">Copyright 2026. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

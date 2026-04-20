@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Article | Al Nahda International Schools</title>
+    <meta
+      name="description"
+      content="Read the latest news and events from Al Nahda International Schools."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Al Nahda International Schools home">
+          <img src="Images/logo.jpg" alt="Al Nahda International Schools logo" class="logo" />
+          <span class="brand-text">
+            <strong>Al Nahda</strong>
+            <small>International Schools</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="news.html" data-i18n="nav_news">News & Events</a></li>
+            <li><a href="apply.html" data-i18n="apply_shortlink">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header-controls">
+          <button type="button" id="lang-toggle" class="chip-btn" aria-label="Switch language">
+            <span class="btn-icon" aria-hidden="true">🌐</span>
+            <span id="lang-toggle-label">العربية</span>
+          </button>
+          <button type="button" id="theme-toggle" class="chip-btn" aria-label="Switch theme">
+            <span id="theme-icon" class="btn-icon" aria-hidden="true">🌙</span>
+            <span id="theme-toggle-label">Dark</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="news-detail-section">
+        <div class="container news-detail-container">
+          <!-- Article Content -->
+          <article class="news-detail-article">
+            <div class="news-detail-header">
+              <p class="news-detail-date" id="articleDate">April 18, 2026</p>
+              <h1 id="articleTitle">Annual Sports Day 2026</h1>
+            </div>
+
+            <figure class="news-detail-image">
+              <img src="Images/images (2).jpg" id="articleImage" alt="News article featured image" />
+            </figure>
+
+            <div class="news-detail-body" id="articleBody">
+              <p>
+                Al Nahda International Schools celebrated its Annual Sports Day with remarkable enthusiasm and participation from all grade levels. The event showcased the athletic prowess, competitive spirit, and sportsmanship of our diverse student body in a day filled with excitement and achievement.
+              </p>
+
+              <h2>Event Highlights</h2>
+              <p>
+                The sports day featured a comprehensive program of activities designed to engage students across various athletic disciplines. From track and field events to relay races, obstacle courses, and team sports competitions, every student had the opportunity to participate and contribute to their house teams.
+              </p>
+
+              <ul>
+                <li><strong>100m Sprint</strong> - Lightning-fast performances showcased incredible speed</li>
+                <li><strong>Long Jump & High Jump</strong> - Students demonstrated impressive athletic abilities</li>
+                <li><strong>Relay Races</strong> - Exciting inter-class competitions fueled by team spirit</li>
+                <li><strong>Obstacle Course</strong> - Challenging activities tested agility and determination</li>
+                <li><strong>Team Sports</strong> - Football, basketball, and volleyball tournaments throughout the day</li>
+              </ul>
+
+              <h2>Celebrating Excellence</h2>
+              <p>
+                Throughout the day, students displayed not only their physical capabilities but also exemplary values of teamwork, perseverance, and sportsmanship. Teachers and parents witnessed incredible moments of support, encouragement, and celebration as classmates cheered for their peers.
+              </p>
+
+              <p>
+                The closing ceremony recognized outstanding performances and awarded trophies to winning teams. However, the true victory was the participation of every student and the bonds strengthened through friendly competition and shared experiences.
+              </p>
+
+              <h2>Looking Forward</h2>
+              <p>
+                The Annual Sports Day remains a cornerstone of Al Nahda's commitment to holistic student development. We are proud of our students' athletic achievements and their demonstration of our core values. We look forward to an even more dynamic and inclusive sports program in the coming year.
+              </p>
+
+              <p>
+                Thank you to all the teachers, staff, parents, and volunteers who made this event possible. Your dedication ensures that our students have opportunities to grow, excel, and build lasting memories.
+              </p>
+            </div>
+
+            <div class="news-detail-footer">
+              <a href="news.html" class="btn-primary" data-i18n="news_back_to_all">← Back to All News</a>
+            </div>
+          </article>
+
+          <!-- Related Articles Sidebar -->
+          <aside class="news-detail-sidebar">
+            <h3 data-i18n="news_related_title">Related Articles</h3>
+            <ul class="related-articles">
+              <li>
+                <a href="news-detail.html?id=2">
+                  <strong>Science & Innovation Fair</strong>
+                  <span class="related-date">April 10, 2026</span>
+                </a>
+              </li>
+              <li>
+                <a href="news-detail.html?id=3">
+                  <strong>University Campus Visit</strong>
+                  <span class="related-date">April 1, 2026</span>
+                </a>
+              </li>
+              <li>
+                <a href="news-detail.html?id=4">
+                  <strong>Cultural Week Celebration</strong>
+                  <span class="related-date">March 25, 2026</span>
+                </a>
+              </li>
+              <li>
+                <a href="news-detail.html?id=5">
+                  <strong>Community Service Day</strong>
+                  <span class="related-date">March 15, 2026</span>
+                </a>
+              </li>
+              <li>
+                <a href="news-detail.html?id=6">
+                  <strong>Debate Championship</strong>
+                  <span class="related-date">March 5, 2026</span>
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section admissions">
+        <div class="container admissions-inner">
+          <p class="eyebrow" data-i18n="admissions_eyebrow">Admissions</p>
+          <h2 data-i18n="admissions_title">Ready to Join Us?</h2>
+          <p data-i18n="admissions_desc">
+            Explore the exciting opportunities and vibrant community at Al Nahda International Schools.
+          </p>
+          <div class="actions">
+            <a href="apply.html" class="btn-primary" data-i18n="admissions_cta1">Apply Now</a>
+            <a href="tour.html" class="btn-outline" data-i18n="admissions_cta2">Schedule a Tour</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p data-i18n="footer_name">Al Nahda International Schools</p>
+        <p data-i18n="footer_copy">Copyright 2026. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      // Sample news data - in a real application, this would come from a backend
+      const newsData = {
+        1: {
+          title: "Annual Sports Day 2026",
+          date: "April 18, 2026",
+          image: "Images/images (2).jpg",
+          body: `<p>Al Nahda International Schools celebrated its Annual Sports Day with remarkable enthusiasm and participation from all grade levels. The event showcased the athletic prowess, competitive spirit, and sportsmanship of our diverse student body in a day filled with excitement and achievement.</p>
+
+          <h2>Event Highlights</h2>
+          <p>The sports day featured a comprehensive program of activities designed to engage students across various athletic disciplines. From track and field events to relay races, obstacle courses, and team sports competitions, every student had the opportunity to participate and contribute to their house teams.</p>
+
+          <ul>
+            <li><strong>100m Sprint</strong> - Lightning-fast performances showcased incredible speed</li>
+            <li><strong>Long Jump & High Jump</strong> - Students demonstrated impressive athletic abilities</li>
+            <li><strong>Relay Races</strong> - Exciting inter-class competitions fueled by team spirit</li>
+            <li><strong>Obstacle Course</strong> - Challenging activities tested agility and determination</li>
+            <li><strong>Team Sports</strong> - Football, basketball, and volleyball tournaments throughout the day</li>
+          </ul>
+
+          <h2>Celebrating Excellence</h2>
+          <p>Throughout the day, students displayed not only their physical capabilities but also exemplary values of teamwork, perseverance, and sportsmanship. Teachers and parents witnessed incredible moments of support, encouragement, and celebration as classmates cheered for their peers.</p>
+
+          <p>The closing ceremony recognized outstanding performances and awarded trophies to winning teams. However, the true victory was the participation of every student and the bonds strengthened through friendly competition and shared experiences.</p>
+
+          <h2>Looking Forward</h2>
+          <p>The Annual Sports Day remains a cornerstone of Al Nahda's commitment to holistic student development. We are proud of our students' athletic achievements and their demonstration of our core values. We look forward to an even more dynamic and inclusive sports program in the coming year.</p>
+
+          <p>Thank you to all the teachers, staff, parents, and volunteers who made this event possible. Your dedication ensures that our students have opportunities to grow, excel, and build lasting memories.</p>`
+        },
+        2: {
+          title: "Science & Innovation Fair",
+          date: "April 10, 2026",
+          image: "Images/uk-universities-1536x1024.jpg",
+          body: `<p>Students presented groundbreaking STEM projects to parents and educators in our annual Science & Innovation Fair. The fair showcased innovative projects ranging from robotics to environmental science, demonstrating our students' creativity and technical skills.</p>
+
+          <h2>Project Categories</h2>
+          <p>The fair featured diverse project categories spanning multiple disciplines of science and technology. Students explored questions and created solutions across physics, chemistry, biology, environmental science, and engineering.</p>
+
+          <h2>Notable Achievements</h2>
+          <p>Several projects stood out for their innovation and practical application. From renewable energy solutions to medical technology innovations, our students demonstrated remarkable problem-solving abilities and scientific thinking.</p>
+
+          <h2>Impact and Learning</h2>
+          <p>This event reinforces our commitment to inquiry-based learning and practical application of scientific principles. Students developed critical thinking skills, collaborated with peers, and presented their findings with confidence and clarity.</p>`
+        },
+        3: {
+          title: "University Campus Visit",
+          date: "April 1, 2026",
+          image: "Images/images (3).jpg",
+          body: `<p>Our senior students visited prestigious international universities to explore future opportunities and pathways. This educational trip included campus tours, student panel discussions, and interactions with admissions officers from leading institutions worldwide.</p>
+
+          <h2>Universities Visited</h2>
+          <p>The trip encompassed visits to several top-ranked institutions, providing students with firsthand experience of university life, academic programs, and student communities.</p>
+
+          <h2>Student Insights</h2>
+          <p>Students gained valuable perspectives on university admissions processes, scholarship opportunities, and pathways to success. They connected with current university students and learned about various academic disciplines and career opportunities.</p>
+
+          <h2>Future Planning</h2>
+          <p>This experience equipped our students with the knowledge and inspiration needed to make informed decisions about their higher education. Many students left with clearer goals and a deeper understanding of their academic interests and career aspirations.</p>`
+        },
+        4: {
+          title: "Cultural Week Celebration",
+          date: "March 25, 2026",
+          image: "Images/images.jpg",
+          body: `<p>Al Nahda celebrated its annual Cultural Week with vibrant performances, exhibitions, and activities showcasing the diverse backgrounds and talents of our student body. Students presented traditional dances, food, and art from various cultures around the world.</p>
+
+          <h2>Cultural Performances</h2>
+          <p>The week featured performances from different cultures, including traditional dances, music, and theatrical presentations that celebrated the rich diversity of our school community.</p>
+
+          <h2>Inclusive Community</h2>
+          <p>Cultural Week reinforces our commitment to celebrating diversity, fostering understanding, and creating an inclusive community where every student feels valued and represented.</p>`
+        },
+        5: {
+          title: "Community Service Day Initiative",
+          date: "March 15, 2026",
+          image: "Images/images (4).jpg",
+          body: `<p>Our students participated in a comprehensive Community Service Day, engaging in various volunteer activities including environmental cleanup, elderly care facility visits, and local community support programs.</p>
+
+          <h2>Community Impact</h2>
+          <p>Students made meaningful contributions to their local community through hands-on volunteer work, learning the importance of social responsibility and compassionate action.</p>
+
+          <h2>Lessons Learned</h2>
+          <p>This initiative reinforced our commitment to developing globally conscious citizens who understand their responsibility to contribute positively to society.</p>`
+        },
+        6: {
+          title: "Inter-School Debate Championship",
+          date: "March 5, 2026",
+          image: "Images/Al_Nahda_National_School_for_Girls_Campus_89f408a84d_c35fd727ae_e9f4139fbb.jpg",
+          body: `<p>Al Nahda's debate team claimed victory at the Inter-School Debate Championship, competing against teams from leading schools in the region.</p>
+
+          <h2>Championship Highlights</h2>
+          <p>Our students demonstrated exceptional critical thinking, eloquence, and argumentation skills throughout the competition, advancing through multiple rounds to secure the championship title.</p>
+
+          <h2>Achievement Recognition</h2>
+          <p>This victory reflects the dedication of our debate program and the exceptional communication skills developed by our students through rigorous practice and mentorship.</p>`
+        }
+      };
+
+      // Load article content based on URL parameter
+      document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = urlParams.get('id') || '1';
+        const article = newsData[articleId];
+
+        if (article) {
+          document.getElementById('articleTitle').textContent = article.title;
+          document.getElementById('articleDate').textContent = article.date;
+          document.getElementById('articleImage').src = article.image;
+          document.getElementById('articleImage').alt = article.title;
+          document.getElementById('articleBody').innerHTML = article.body;
+          document.title = article.title + " | Al Nahda International Schools";
+        }
+      });
+    </script>
+  </body>
+</html>
